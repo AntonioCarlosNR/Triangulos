@@ -8,16 +8,16 @@ namespace Triangulos.PolimorfismoMVC
 {
     public abstract class AbsPropriedades
     {
-        public double Lado1 { get; protected set; }
-        public double Lado2 { get; protected set; }
-        public double Lado3 { get; protected set; }
+        public double Lado1 { get; set; }
+        public double Lado2 { get; set; }
+        public double Lado3 { get; set; }
 
         public string lado1 { get; set; }
         public string lado2 { get; set; }
         public string lado3 { get; set; }
         public string Resposta { get; set; }
 
-        public double Resultado { get; set; }
+        public string Resultado { get; set; }
 
         public AbsPropriedades (double Lado1, double Lado2, double Lado3)
         {

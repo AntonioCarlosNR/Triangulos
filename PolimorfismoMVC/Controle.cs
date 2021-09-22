@@ -23,7 +23,7 @@ namespace Triangulos.PolimorfismoMVC
                 this.Lado2 = LadosConverter.Lado2;
                 this.Lado3 = LadosConverter.Lado3;
 
-                LadosConverter = new Triangulos(this.Lado1, this.Lado2, this.Lado3);
+                LadosConverter = new Triangulo(this.Lado1, this.Lado2, this.Lado3);
             }
             this.Resposta = LadosConverter.Resposta;
         }
